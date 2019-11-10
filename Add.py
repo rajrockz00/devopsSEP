@@ -1,9 +1,8 @@
-  
-num1 = 15
-num2 = 12
-  
-# Adding two nos 
-sum = num1 + num2 
-  
-# printing values 
-print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
+val1 = 100.99
+val2 = 76.15
+
+# Adding the two given numbers
+sum = float(val1) + float(val2)
+
+# Displaying the addition result
+print("The sum of given numbers is: ", sum)
