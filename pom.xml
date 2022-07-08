@@ -42,7 +42,8 @@
             <goal>report</goal>
           </goals>
           <configuration>
-            <outputDirectory>${project.build.directory}/jacoco</outputDirectory>
+            <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
+            <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
           </configuration>
         </execution>
         <execution>
